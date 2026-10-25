@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "profiles": [
+    {
+      "id": "honor9x-hlk-al00-harmony3-170",
+      "evidence": "Historical manual cleanup matched the listed fields. Full build fingerprint was not recorded; matching these fields does not establish validation of another fingerprint. The reversible-disable helper is simulation-tested, not device-validated. Review these limits before choosing targets.",
+      "match": {
+        "manufacturer": "HUAWEI", "brand": "HONOR", "model": "HLK-AL00",
+        "device": "HWHLK-H", "sdk": "29", "android": "10",
+        "display": "HLK-AL00 3.0.0.170(C00E160R5P3)", "harmony": "3.0.0"
+      },
+      "candidates": {
+        "com.huawei.recsys": {"purpose": "推荐引擎", "impact": "可能停止跨应用智能推荐；不代表应用内广告全部消失"},
+        "com.huawei.ohos.suggestion": {"purpose": "小艺建议", "impact": "智能建议和相关卡片将不可用"},
+        "com.huawei.intelligent": {"purpose": "智慧助手今天", "impact": "负一屏资讯及其服务卡片可能不可用"},
+        "com.huawei.magazine": {"purpose": "杂志锁屏", "impact": "停止在线杂志锁屏及相关壁纸推荐"},
+        "com.huawei.hitouch": {"purpose": "智慧识屏入口", "impact": "识屏购物和部分双指识屏功能将不可用"}
+      }
+    }
+  ]
+}

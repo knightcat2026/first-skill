@@ -1,0 +1,4 @@
+interface:
+  display_name: "手机防误装净化"
+  short_description: "保留用户资料，识别安卓和鸿蒙系统，关闭推荐、广告与误装入口"
+  default_prompt: "使用 $phone-clean-guard，只关闭推荐与误装入口，保留全部资料、已装应用、APK 安装包及系统更新功能。"
